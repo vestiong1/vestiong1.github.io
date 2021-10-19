@@ -1,0 +1,126 @@
+body{
+				background-image: url(Fondo.jpeg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				font-family: serif;
+				font-size: 1.2rem;
+				line-height: 1.6em;
+}
+#I, #U, #E, h2, #P, h3, #R{ 
+   font-size: 2.2rem;
+				line-height: 1.3em;
+				text-align: center;
+}
+p{
+				margin-bottom: 1.6em;
+			 font-size: 2rem;
+			 color: #191970;
+			 line-height: 2em;
+			 margin: 30px;
+			 padding: 30px;
+}
+.co{
+				width: 450%;
+				max-width: 1250px;
+				margin: 0 auto;
+}
+.he{
+				background: #333;
+				color: white;
+				padding: 2rem  0 ;
+				position: fixed;
+				left: 0;
+				top: 0;
+				right: 0;
+}
+.he a{
+			color: white;
+			text-decoration: none;
+}
+.log-nav-con{
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+}
+.log{
+				letter-spacing: 20px;
+				font-size: 1.6em;
+				margin-left: 50px;
+				line-height: 40px;
+}
+.nav ul{
+				margin: 0;
+	 	 padding: 0;
+	 	 list-style:none;
+}
+.nav ul li{
+				display: inline-block;
+}
+.nav ul li a{
+				display: block;
+				padding: 0.5rem 1rem;
+				transition: all 0.4s linear;
+				border-radius: 5px;
+}
+.nav ul li a:hover{
+				background: #4a4a4a;
+}
+.mn{ 
+				 padding-top: 8rem; 
+}
+img{
+				width: 65%;
+				height: 155%;
+				display: block; 
+				margin-left: auto;
+				margin-right: auto;
+}
+button{ 
+				display: inline-block;
+   border-radius: 10px;
+   background-color: beige;
+   border: none;
+   text-align: center;
+   font-size: 28px;
+   padding: 20px;
+   width: 200px;
+   transition: all 0.5s;
+   cursor: pointer;
+   margin: 5px;
+   margin-left: 60px;
+}
+
+button .dc {
+   cursor: pointer;
+   display: inline-block;
+   position: relative;
+   transition: 0.5s;
+}
+
+button .dc:after {
+   content: '\00bb';
+   position: absolute;
+   opacity: 0;
+   top: 0;
+   right: -20px;
+   transition: 0.5s;
+}
+
+button:hover .dc {
+   padding-right: 25px;
+}
+
+button:hover .dc:after{
+				opacity: 1;
+				right: 0;
+}
+ 
+.dc{
+				text-decoration: none;
+				color: #191970;
+				font-size: 2rem;
+}
+.ft{
+				padding: 4rem 0;
+				margin-top: 4rem;
+}
